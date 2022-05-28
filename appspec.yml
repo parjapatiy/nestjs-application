@@ -6,6 +6,6 @@ files:
     overwrite: true
 hooks:
   AfterInstall:
-    - location: scripts/pm2_run.sh
+    - location: /pm2_run.sh
       timeout: 300
       
